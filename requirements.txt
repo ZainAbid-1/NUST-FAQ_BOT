@@ -1,0 +1,10 @@
+fastapi==0.110.1
+uvicorn==0.29.0
+beautifulsoup4==4.12.3
+requests==2.31.0
+sentence-transformers==2.7.0
+faiss-cpu==1.8.0
+rank_bm25==0.2.2
+llama-cpp-python>=0.2.76
+huggingface-hub==0.22.2
+cloudscraper==1.2.71

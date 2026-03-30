@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUST Admissions FAQ Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-logo">
+                <!-- Simple SVG logo representing NUST using its colors -->
+                <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="50" fill="#002D62"/>
+                    <path d="M30 70 V 30 L 70 70 V 30" stroke="#D4AF37" stroke-width="8" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="header-titles">
+                <h1>NUST Admissions FAQ Assistant</h1>
+                <span class="subtitle">Offline Hybrid RAG Engine</span>
+            </div>
+        </header>
+
+        <!-- Chat Container -->
+        <main class="chat-container" id="chatContainer">
+            <div class="message-row ai-row">
+                <div class="message ai-message">
+                    <p>Welcome! I am the NUST Admissions AI Assistant. I operate 100% offline, powered by a semantic hybrid-search engine. You can ask me regarding BSHND, MBBS, and general UG admissions.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Chat Input -->
+        <footer class="input-area">
+            <form id="chatForm">
+                <input type="text" id="userInput" placeholder="Ask a question..." autocomplete="off" required />
+                <button type="submit" id="sendBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </form>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
