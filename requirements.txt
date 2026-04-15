@@ -8,3 +8,4 @@ rank_bm25==0.2.2
 llama-cpp-python>=0.2.76
 huggingface-hub==0.22.2
 cloudscraper==1.2.71
+numpy<2.0.0
